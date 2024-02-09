@@ -16,4 +16,10 @@ print("Welcome",trainer_name, "to your Perfect Pokemon Match!")
 print("This quiz will help you find you best suiting starter pokemon to join you on your pokemon adventure")
 #Ask the First Question
 def ques_1():
-
+    global answer
+    print("Where is the Place You Would Associate Yourself With?")
+    print("1. Hawaii\n2. The United Kingdom\n3. Japan\n4. Metropolitan France\n5. Spain\n6. New York City")
+    input("\nAnswer:")
+    for regions in regionList:
+        if answer == "Hawaii"
+ques_1()
