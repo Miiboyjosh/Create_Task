@@ -21,5 +21,6 @@ def ques_1():
     print("1. Hawaii\n2. The United Kingdom\n3. Japan\n4. Metropolitan France\n5. Spain\n6. New York City")
     input("\nAnswer:")
     for regions in regionList:
-        if answer == "Hawaii"
+        if answer == 3:
+            print()
 ques_1()
