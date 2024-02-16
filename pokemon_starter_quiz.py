@@ -19,9 +19,23 @@ def ques_1():
     print("Where is the Place You Would Associate Yourself With?")
     print("1. Hawaii\n2. The United Kingdom\n3. Japan\n4. Metropolitan France\n5. Spain\n6. New York City")
     response = input("\nAnswer:")
+    if response == "1":
+        print("Your region is Alola")
+        ques_2()
+    if response == "2":
+        print("Your region is Galar")
+        ques_2()
     if response == "3":
         japan_opt()
-
+    if response == "4":
+        print("Your region is Kalos")
+        ques_2()
+    if response == "5":
+        print("Your region is Paldea")
+        ques_2()
+    if response == "6":
+        print("Your region is Unova")
+        ques_2()
 def japan_opt():
     print("Which of the Follow Geographies Would You Prefer")
     print("1. Volcanic\n2. Plains\n3. Mountainous\n4. Archipelago")
@@ -30,8 +44,12 @@ def japan_opt():
 
 
 def ques_2():
-    sdf
+    print("What characteristic best describes you")
+    print("A. Passionate\nB. Relaxed\nC. Sympathetic")
+    answer = input("\nAnswer:")
+    score_sys(answer)
 
+def ques_3():
 
 
 def score_sys(answer):
