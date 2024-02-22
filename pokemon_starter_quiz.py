@@ -70,12 +70,11 @@ def ques_5():
 def score_sys(answer):
     global score
     if answer == "A" or "a":
-        score += 1
+        score += 3
     if answer == "B" or "b":
         score += 2
     if answer == "C" or "c":
-        score += 3
-
+        score += 1
 def fin_results():
     if score >= 5:
         print()
