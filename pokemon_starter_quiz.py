@@ -86,8 +86,9 @@ def ques_5():
     print("Which of these hobbies do you enjoy most?")
     print("A.Weightlifting\nB. Reading\nC. Hiking")
     answer = input("\nAnswer:")
+    score_sys(answer)
     fin_results()
-def score_sys():
+def score_sys(answer):
     global score
     if answer == "A" or "a":
         score += 3
@@ -97,12 +98,12 @@ def score_sys():
         score += 1
 def fin_results():
     global score
-    if score >= 11 or score == 12:
-        print("Congrats", trainer_name, "your starter Pokemon is", region[1])
+    if score >= 11:
+        print("Congrats", trainer_name, "your starter Pokemon is", region[0])
     if score >= 8 or score <= 10:
-        print("Congrats", trainer_name, "your starter Pokemon is", region[2])
+        print("Congrats", trainer_name, "your starter Pokemon is", region[1])
     if score == 4:
-        print("Congrats", trainer_name, "your starter Pokemon is", region[3])
+        print("Congrats", trainer_name, "your starter Pokemon is", region[2])
 
 
 ques_1()
